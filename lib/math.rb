@@ -7,7 +7,7 @@ end
 def subtraction(num1, num2)
   num1.to_f 
   num2.to_f
-  dif = num1 + num2
+  dif = num1 - num2
 end
 
 def division(num1, num2)
@@ -25,7 +25,7 @@ end
 def modulo(num1, num2)
   num1.to_f 
   num2.to_f
-  mod = nu1 % num2
+  mod = num1 % num2
 end
 
 def square_root(num)
